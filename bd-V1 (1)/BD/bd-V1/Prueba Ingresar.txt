@@ -1,0 +1,12 @@
+use taller;
+SELECT nuevoCliente('7777','Julio','Jarquin','Muñoz','8888888','848748748','Cuba','Julio@gmail.com')
+SELECT nuevoArtefacto(1,'111','Bravia','Sony','TV','Televisor 52¨ a color);
+
+
+CALL todosArtefacto(1,2);
+CALL filtrarArteFacto("%%&%%&%%&%%&",1,2);
+CALL filtrarArteFacto("%%&%%&%Sony%&%%&",0,2);
+
+%%&%%&%%&%%&
+
+%serie%&%modelo%&%marca%&%categoria%&

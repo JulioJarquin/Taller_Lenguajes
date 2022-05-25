@@ -1,0 +1,26 @@
+estos comandos es para crear componetes
+ng g c components/cliente                       // objeto cliente
+ng g c components/navBar                        // barra de navegacion
+ng g c components/artefacto --skip-tests        // otro componente pero le solicita con skip que no agregue el documento.tests
+ng g c components/home --skip-tests
+
+
+
+github.com/FortAwesome/angular-fontawesome
+
+
+estos son los comandos que se necesitan de la pagina de arriba
+npm install @fortawesome/fontawesome-svg-core
+npm install @fortawesome/free-solid-svg-icons
+npm install @fortawesome/angular-fontawesome@0.10.x
+
+
+
+para ver iconos que existen
+https://fontawesome.com/
+
+
+
+se crea un servicio para la base de datos
+ng g s shared/services/cliente.service --skip-tests
+ng g class shared/models/cliente

@@ -1,0 +1,20 @@
+[GET]: http://tallerbd/articulo/1/10
+[GET]: http://tallerbd/articulo/IF4101
+[POST]: http://tallerbd/articulo
+        {
+        "nombre":"Julio",
+        "apellido1":"Jarquin",
+        "Apellido":"Muñoz"         
+        }
+
+[PUT] : http://tallerbd/articulo/7777
+        {
+        "nombre":"Julio",
+        "apellido1":"Jarquin",
+        "Apellido":"Muñoz"         
+        }
+
+[DELETE]: http://tallerbd/articulo/IF4101
+
+
+$app->groud('/articulo', function(RouteCollectorProxy $articulo){

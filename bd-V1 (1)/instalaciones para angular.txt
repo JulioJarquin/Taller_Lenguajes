@@ -1,0 +1,19 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+
+ ng new frontend
+
+
+
+cd frontend
+
+
+
+ code .
+
+
+
+terminal:
+ng s --o
+ne server --open

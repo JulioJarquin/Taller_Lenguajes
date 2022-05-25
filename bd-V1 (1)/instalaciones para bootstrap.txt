@@ -1,0 +1,21 @@
+getbootstrap.com
+
+npm install bootstrap
+
+NOTA:
+se modifican los documentos
+angular.json
+
+para pegar en styles la direccion del documento que esta en
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+y para pegar en scripts
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+
+
+
+
+En esta parte salen componentes que se pueden utilizar para diferencosas como botones etc...
+https://getbootstrap.com/docs/5.1/getting-started/introduction/
+

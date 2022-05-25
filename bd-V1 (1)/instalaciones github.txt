@@ -1,0 +1,18 @@
+//en esta direccion se descarga github
+https://git-scm.com/  
+
+para crear cuenta
+https://github.com
+
+la terminal se coloca en la direccion de la carpeta frontend 
+cd frontend
+
+
+
+git init
+git add .
+git commit -m "explicando los cambios"
+git remote add origin https://github.com/JulioJarquin/TallerFE.git
+git push --set-upstream origin main
+
+
